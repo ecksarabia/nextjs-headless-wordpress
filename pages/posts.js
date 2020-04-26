@@ -1,4 +1,4 @@
-import fetch from "isomorphic-unfetch";
+import fetch from "node-fetch";
 import Navigation from "../components/Navigation";
 
 const Posts = ({ posts }) => (
