@@ -22,7 +22,7 @@ const Posts = ({ posts }) => (
   </>
 );
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const res = await fetch(
     "https://www.citaconemprendedores.com/wp-json/wp/v2/posts"
   );
