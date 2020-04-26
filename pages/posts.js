@@ -1,5 +1,4 @@
 import fetch from "isomorphic-unfetch";
-import htmlToReact from "html-to-react";
 import Navigation from "../components/Navigation";
 
 const Posts = ({ posts }) => (
